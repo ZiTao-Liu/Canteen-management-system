@@ -1,0 +1,23 @@
+<!--pages/fbgl/fbgl.wxml-->
+<view class="wdl_ban" wx:if="{{userid==''}}">
+    <view class="wdl">
+        <image src="../../images/font-ui/wdl.png"></image>
+    </view>
+    <view class="text_main">您还未授权登录，请授权登录！</view>
+    <button size="mini" type="primary" bindtap='showsq' class="btn_sq">去授权</button>
+</view>
+<view class="contmian" wx:if="{{userid!=''}}">
+    <view class="mian_box"  wx:for="{{rmb}}" wx:for-item="item" wx:key="_id"  bindtap='showbs' >
+        <view class="main_box_left">
+            <image src="{{item.zp}}" class="zszp"></image>
+        </view>
+        <view class="main_box_right">
+            <view class="tit_zs">{{item.name}}</view>
+            <view class="pl">配料:{{item.pl}}</view>
+            <view class="pl">月售:{{item.xl}}</view>
+            <view class="jg">￥ {{item.jg}}</view>
+            <button size="mini" type="primary" bindtap="addCart" id="{{item._id}}"  class="btn_9">购买</button>
+        </view>  
+    </view> 
+</view> 
+  

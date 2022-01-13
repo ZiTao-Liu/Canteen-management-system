@@ -1,0 +1,80 @@
+/* pages/dp/dp.wxss */
+
+.search{
+    position: relative;
+    width: 90%;
+    margin: 40rpx auto;
+   }
+   .search input{
+    border:1px solid #ccc;
+    border-radius: 6px;
+    height: 30px;
+    padding-left: 30rpx;
+   }
+   .icons{
+    position: absolute;
+    right: 20px;
+    top:5px;
+   }
+   .rmbs-list{
+    width: 100%;
+    height: 250rpx;
+    margin-top: 10rpx;
+}
+.rmbs-list-photo{
+    width: 40%;
+    height: 80%;
+    float: left;
+    margin-top: 25rpx;
+}
+.rmbs-list-photo image{
+    width: 100%;
+    height: 100%;
+}
+.rmbs-list-text{
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+.rmbs-list-text-tit1{
+    font-size: 30rpx;
+    font-weight: 700;
+    margin-top: 25rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    width: 85%;
+    
+}
+.rmbs-list-text-jj{
+    width: 100%;
+    height:60rpx ;
+    font-size: 23rpx;
+    color: rgb(192, 192, 192);
+}
+.rmbs-list-text-tit2{
+    font-size: 20rpx;
+    margin-top: 10rpx;
+    color: rgb(205, 133, 63);
+}
+.rmbs-list-text-btn{
+    width: 80rpx;
+    height: 30rpx;
+    background-color: beige;
+    font-size: 17rpx;
+    text-align: center;
+    border-radius: 10rpx;
+    line-height: 30rpx;
+    float: left;
+    margin-right: 10rpx;
+    color: white;
+    background-color: darkmagenta;
+}
+.rmbs-list-text-tit3{
+    margin-top: 10rpx;
+}
+.rmbs{
+    width: 90%;
+    margin: 0 auto;
+    height: 800rpx;
+    margin-top: 30rpx;
+}

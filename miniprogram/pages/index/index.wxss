@@ -1,0 +1,147 @@
+/* pages/index/index.wxss */
+.banner{
+    width: 100%;
+    height: 350rpx;
+}
+.swip_main{
+    width: 100%;
+    height: 100%;
+}
+.tz{
+    width: 100%;
+    height: 100rpx;
+    background-color: rgb(226, 226, 226);
+}
+.tz_zp{
+    width: 80rpx;
+    height: 80rpx;
+    margin-top: 10rpx;
+    margin-left: 40rpx;
+    float: left;
+}
+.tz_zp image{
+    width: 100%;
+    height: 100%;
+}
+.swiper-news-top{
+    width: 600rpx;
+    height: 80rpx;
+    float: right;
+    margin-top: 10rpx;
+    margin-right: 30rpx;
+}
+.swiper_item {
+    font-size: 28rpx;
+    font-weight: 700;
+    line-height: 80rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .nav{
+    width: 100%;
+    height: 150rpx;
+}
+.nav-banner{
+    height: 100%;
+    width: 20%;
+    background-color: azure;
+    float: left;
+}
+.nav-banner-img{
+    width: 100%;
+    height: 75%;
+}
+.nav-banner-img image{
+    width: 70%;
+    height: 80%;
+    padding: 10% 15%;
+}
+.nav-banner-text{
+    text-align: center;
+    margin-top: -10rpx;
+    font-size: 26rpx;
+}
+.rmbs{
+    width: 90%;
+    margin: 0 auto;
+    height: 800rpx;
+    margin-top: 30rpx;
+}
+.rmbs-title{
+    width: 100%;
+    height: 80rpx;
+}
+.rmbs-title-text{
+    line-height: 80rpx;
+    width: 30%;
+    text-align: center;
+    border-left: 7px solid rgb(160, 8, 8);
+    float: left;
+    font-weight: 700;
+}
+.rmbs-title-more{
+    float: right;
+    line-height: 80rpx;
+    font-size: 24rpx;
+    color: rgb(99, 102, 102);
+    margin-right: 30rpx;
+}
+.rmbs-list{
+    width: 100%;
+    height: 250rpx;
+    margin-top: 10rpx;
+}
+.rmbs-list-photo{
+    width: 40%;
+    height: 80%;
+    float: left;
+    margin-top: 25rpx;
+}
+.rmbs-list-photo image{
+    width: 100%;
+    height: 100%;
+}
+.rmbs-list-text{
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+.rmbs-list-text-tit1{
+    font-size: 30rpx;
+    font-weight: 700;
+    margin-top: 25rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    width: 85%;
+    
+}
+.rmbs-list-text-jj{
+    width: 100%;
+    height:60rpx ;
+    font-size: 23rpx;
+    color: rgb(192, 192, 192);
+}
+.rmbs-list-text-tit2{
+    font-size: 20rpx;
+    margin-top: 10rpx;
+    color: rgb(205, 133, 63);
+}
+.rmbs-list-text-btn{
+    width: 80rpx;
+    height: 30rpx;
+    background-color: beige;
+    font-size: 17rpx;
+    text-align: center;
+    border-radius: 10rpx;
+    line-height: 30rpx;
+    float: left;
+    margin-right: 10rpx;
+    color: white;
+    background-color: darkmagenta;
+}
+.rmbs-list-text-tit3{
+    margin-top: 10rpx;
+}

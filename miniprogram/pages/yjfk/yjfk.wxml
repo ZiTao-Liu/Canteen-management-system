@@ -1,0 +1,12 @@
+<!--pages/yjfk/yjfk.wxml-->
+<view class="banner">
+  <image src="https://6363-ccntst-8gsp6zkw250f8e38-1305928500.tcb.qcloud.la/cloudbase-cms/upload/2021-11-25/5hbujycykft9vg9g82xcsw0f6z34v8o5_.jpg"></image>
+</view>
+<view class="yjfk">
+    <view class="yjfk-title">意见反馈：  </view>
+    <button open-type="feedback" type="primary" style="margin-top:50rpx">意见反馈</button>
+    <button open-type="contact" type="default" style="margin-top:50rpx">联系客服</button>
+</view>
+<view class="text-01">
+    您的意见是我们不断改进的动力，请留下您在使用过程中遇到的问题或提出宝贵 建议! 
+</view>

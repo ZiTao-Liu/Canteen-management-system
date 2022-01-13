@@ -1,0 +1,39 @@
+<!--pages/dingdan/dingdan.wxml-->
+<view class="qsy" wx:if="{{openid==''}}">
+    <view class="wdl">
+        <image src="../../images/font-ui/wdl.png"></image>
+    </view>
+    <view class="text_main">您还未授权登录，请授权登录！</view>
+    <button bindtap="getopenid" size="default" class="btn_sq" type="primary">登录</button>
+</view>
+<view wx:if="{{openid!=''}}">
+    <view class="banner">
+    <!----><image src="https://6363-ccntst-8gsp6zkw250f8e38-1305928500.tcb.qcloud.la/cloudbase-cms/upload/2021-11-25/5hbujycykft9vg9g82xcsw0f6z34v8o5_.jpg"></image>
+</view> 
+    <view class="box_main_1">
+        <view class="ban_box" bindtap="gwc">
+            <view class="zpq">
+                <image src="../../images/font-ui/gouwuche.png"></image>
+            </view>
+            <view class="text_qjj">购物车</view>
+        </view>
+        <view class="ban_box"  bindtap="ddgl">
+            <view class="zpq">
+                <image src="../../images/font-ui/chakandingdan.png"></image>
+            </view>
+            <view class="text_qjj">订单</view>
+        </view>
+        <view class="ban_box" bindtap="yqdd">
+            <view class="zpq">
+                <image src="../../images/font-ui/daipaidan.png"></image>
+            </view>
+            <view class="text_qjj">已取订单</view>
+        </view>
+        <view class="ban_box"  bindtap="cxd">
+            <view class="zpq">
+                <image src="../../images/font-ui/jiankong.png"></image>
+            </view>
+            <view class="text_qjj">信用度</view>
+        </view>
+    </view>
+</view>

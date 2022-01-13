@@ -1,0 +1,8 @@
+<!--pages/xd/xd.wxml-->
+<view class="zpq">
+<image src="../../images/font-ui/5d0a2ff35a066.png"></image>
+</view>
+<view class="cxz">
+<view class="title_01">{{rmbs[0].cxd}}</view>
+<view class="wz">诚信度极好</view>
+</view>

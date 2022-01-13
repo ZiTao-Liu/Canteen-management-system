@@ -1,0 +1,24 @@
+<!--pages/dp/dp.wxml-->
+<view class='search'>
+    <input type='text' placeholder='请输入您要搜索的内容' bindinput='input' bindconfirm='confirm' />
+    <icon type='search' class='icons'></icon>
+</view>
+<view class="rmbs">
+<view class="rmbs-list" wx:for="{{list}}" wx:for-item="item" wx:key="_id"  bindtap='showbs' id="{{item._id}}" wx:if="{{item.show}}">
+        <view class="rmbs-list-photo">
+            <image src="{{item.dpzp}}"></image> 
+        </view>
+        <view class="rmbs-list-text">
+            <view class="rmbs-list-text-tit1">{{item.name}}</view>
+            <view class="rmbs-list-text-jj">{{item.jj}}</view>
+            <view class="rmbs-list-text-tit2">地址：{{item.dpdd}}</view>
+            <view class="rmbs-list-text-tit3">
+                <view class="rmbs-list-text-btn" style="background-color: rgb(26, 69, 134);" wx:if="{{item.btn1!=''}}">{{item.btn1}}</view>
+                <view class="rmbs-list-text-btn" style="background-color: rgb(24, 122, 29);" wx:if="{{item.btn2!=''}}">{{item.btn2}}</view>
+                <view class="rmbs-list-text-btn" style="background-color: coral;" wx:if="{{item.btn3!=''}}">{{item.btn3}}</view>
+                <view class="rmbs-list-text-btn" wx:if="{{item.btn4!=''}}">{{item.btn4}}</view>
+            </view>
+        </view>
+    </view>
+    </view>
+ 

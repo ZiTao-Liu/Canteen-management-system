@@ -1,0 +1,78 @@
+<!--pages/index/index.wxml-->
+<view class="banner">
+    <swiper class="swip_main" indicator-dots autoplay interval="6000" circular>
+        <block wx:for="{{mglist}}">
+            <swiper-item >
+                <image style="width: 100%;height: 100%;" mode="scaleToFill" src="{{item.photo}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<view class="tz">
+    <view class="tz_zp">
+    <image src="../../images/font-ui/zggg.png"></image>
+    </view>
+    <swiper class="swiper-news-top" vertical="true" autoplay="true" circular="true" interval="3000">
+        <block wx:for="{{msgList}}" >
+            <navigator url="" open-type="navigate">
+                <swiper-item>
+                    <view class="swiper_item" >{{item.text}}</view>
+                </swiper-item>
+            </navigator>
+        </block>
+    </swiper>
+</view>
+<view class="nav">
+    <view class="nav-banner"  bindtap='showlist'>
+        <view class="nav-banner-img">
+            <image src="../../images/font-ui/bigmosque.png"></image>
+        </view>
+        <view class="nav-banner-text" >东区食堂</view>
+    </view>
+    <view class="nav-banner" bindtap='showzd'>
+        <view class="nav-banner-img">
+            <image src="../../images/font-ui/bigschool.png"></image>
+        </view>
+        <view class="nav-banner-text">西区食堂</view>
+    </view>
+    <view class="nav-banner" bindtap='showwd'>
+        <view class="nav-banner-img">
+            <image src="../../images/font-ui/moderncity.png"></image>
+        </view>
+        <view class="nav-banner-text">每日优惠</view>
+    </view>
+    <view class="nav-banner"bindtap='showwd'>
+        <view class="nav-banner-img">
+            <image src="../../images/font-ui/store.png"></image>
+        </view>
+        <view class="nav-banner-text">南湖食堂</view>
+    </view>
+    <view class="nav-banner"  bindtap='showtk'>
+        <view class="nav-banner-img">
+            <image src="../../images/font-ui/temple.png"></image>
+        </view>
+        <view class="nav-banner-text">美食分享</view>
+    </view>
+</view>
+<view class="rmbs">
+    <view class="rmbs-title">
+        <view class="rmbs-title-text">热门美食</view>
+        <view class="rmbs-title-more" bindtap='showlist'>查看更多 ></view>
+    </view>
+    <view class="rmbs-list" wx:for="{{rmbs}}" wx:for-item="item" wx:key="_id"  bindtap='showbs' id="{{item._id}}" wx:if="{{index<10}}">
+        <view class="rmbs-list-photo">
+            <image src="{{item.src}}"></image>
+        </view>
+        <view class="rmbs-list-text">
+            <view class="rmbs-list-text-tit1">{{item.name}}</view>
+            <view class="rmbs-list-text-jj">{{item.jj}}</view>
+            <view class="rmbs-list-text-tit2">地址：{{item.zd}}</view>
+            <view class="rmbs-list-text-tit3">
+                <view class="rmbs-list-text-btn" style="background-color: rgb(26, 69, 134);">{{item.btn1}}</view>
+                <view class="rmbs-list-text-btn" style="background-color: rgb(24, 122, 29);">{{item.btn2}}</view>
+                <view class="rmbs-list-text-btn" style="background-color: coral;">{{item.btn3}}</view>
+                <view class="rmbs-list-text-btn">{{item.btn4}}</view>
+            </view>
+        </view>
+    </view>
+</view>

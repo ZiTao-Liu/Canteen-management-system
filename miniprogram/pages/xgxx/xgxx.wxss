@@ -1,0 +1,75 @@
+/* pages/xgxx/xgxx.wxss */
+
+.topbanner{
+    width: 100%;
+    height: 300rpx;
+    background-color: rgb(65, 106, 218);
+  }
+  .toplogo{
+    width: 200rpx;
+    height: 200rpx;
+    padding-top: 40rpx;
+    margin-left: 40rpx;
+    float: left;
+  }
+  .toplogo image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .toptext{
+    width: 400rpx;
+    height: 200rpx;
+    padding-top: 70rpx;
+    float: right;
+    margin-right: 30rpx;
+    color: white;
+  }
+  .user-name{
+    font-size: 40rpx;
+    font-weight: 700;
+  }
+  .user-name2{
+    font:17rpx;
+    margin-top: 20rpx;
+  }
+  .fqzd-ban{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .row{
+    width: 100%;
+    height: 120rpx;
+    font-size: 30rpx;
+    line-height: 120rpx;
+    border-bottom:1px solid rgb(199, 196, 196);
+  }
+  .text1{
+    width: 20%;
+    float: left;
+  }
+  .text2{
+    width: 80%;
+    float: left;
+    text-align: right;
+  }
+  .text4{
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+  }
+  .text3{
+    width: 100%;
+  }
+  .row1{
+    width: 100%;
+    min-height: 200rpx;
+    font-size: 30rpx;
+    line-height: 30rpx;
+    border-bottom:1px solid rgb(199, 196, 196);
+  }
+  .weui-input{
+    height: 120rpx;
+    font-size: 30rpx;
+    line-height: 120rpx;
+  }

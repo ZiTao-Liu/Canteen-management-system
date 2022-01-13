@@ -1,0 +1,43 @@
+<!--pages/fbpl/fbpl.wxml-->
+<view class="wdl_ban" wx:if="{{userid==''}}">
+    <view class="wdl">
+        <image src="../../images/font-ui/wdl.png"></image>
+    </view>
+    <view class="text_main">您还未授权登录，请授权登录！</view>
+    <button size="mini" type="primary" bindtap='showsq' class="btn_sq">去授权</button>
+</view>
+
+<view wx:if="{{userid!=''}}">
+
+<view class="weui-cells__title">发布攻略</view>
+<mp-cell prop="name" title="标题" ext-class="">
+            <input bindinput="formInputChange" data-field="name" class="weui-input" placeholder="请输标题" />
+</mp-cell>
+<mp-cell prop="mobile" title="昵称" ext-class=" ">
+            <input bindinput="formInputChange" data-field="mobile" class="weui-input" placeholder="请输入昵称" />
+            <view slot="footer" class="weui-vcode-btn"></view>
+</mp-cell>
+<view class="weui-cells__title">攻略</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <textarea class="weui-textarea" bindinput="formwtInputChange" placeholder="请输入攻略" name="wt" style="height: 3.3em" />
+            <view class="weui-textarea-counter">200</view>
+          </view>
+        </view>
+</view>
+<view class="page">
+    <view class="page__bd">
+        <mp-cells>
+            <mp-cell>
+                <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uplaodFile}}" files="{{files}}" max-count="4" title="附件上传" tips="最多可上传4张照片"></mp-uploader>
+            </mp-cell>
+        </mp-cells>
+    </view>
+</view>
+<view class="weui-btn-area">
+            <button class="weui-btn" type="primary" formType="submit" bindtap="submitForm">确定</button>
+      </view>
+
+
+    </view>

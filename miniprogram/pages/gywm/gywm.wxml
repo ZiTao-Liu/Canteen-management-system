@@ -1,0 +1,7 @@
+<!--pages/gywm/gywm.wxml-->
+<view class="banner">
+    <image src="https://6363-ccntst-8gsp6zkw250f8e38-1305928500.tcb.qcloud.la/cloudbase-cms/upload/2021-11-25/5hbujycykft9vg9g82xcsw0f6z34v8o5_.jpg"></image>
+</view> 
+<view class="dd">
+  <rich-text class="rich"nodes="{{msgList[0].gywm}}" ></rich-text>
+</view>

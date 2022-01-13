@@ -1,0 +1,41 @@
+/* pages/buzx/buzx.wxss */
+.banner{
+    width: 100%;
+    height: 350rpx;
+  }
+  .banner image{
+    width: 100%;
+    height: 100%;
+  }
+  .textlist{
+    width: 90%;
+    margin:0 auto;
+  }
+  .text1{
+    font-weight: 700;
+    font-size: 30rpx;
+    line-height: 100rpx;
+    margin-left: 40rpx;
+    width: 550rpx;
+    float: left;
+  }
+  .teximg{
+    width: 50rpx;
+    height: 40rpx;
+    padding-top: 30rpx;
+    float: left;
+  }
+  .teximg image{
+    width: 100%;
+    height: 100%;
+  }
+  .text2{
+    width: 90%;
+    margin:0 auto ;
+  color: rgb(96, 99, 99);
+  font-size: 28rpx;
+  }
+  .textmain{
+    border-bottom: 1px solid rgb(139, 139, 141);
+    padding-bottom: 40rpx;
+  }

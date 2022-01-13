@@ -1,0 +1,139 @@
+/* pages/glxq/glxq.wxss */
+.zpq{
+    width: 100%;
+    height: 700rpx;
+}
+.zpq image{
+    width: 100%;
+    height: 100%;
+}
+.dd{
+    width: 85%;
+    margin: 30rpx auto;
+    margin-top: -350rpx;
+    background-color: rgba(247, 247, 247, 0.842);
+    border-radius: 20rpx;
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+    padding: 40rpx;
+    min-height: 500rpx;
+}
+.fbsj{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 24rpx;
+    color: rgb(177, 177, 177);
+}
+.lll{
+    width: 90%;
+    margin: 10rpx auto;
+}
+.liulanl{
+    width: 90rpx;
+    height: 35rpx;
+  }
+  .lll_zp{
+    width: 35rpx;
+    height: 35rpx;
+    float: left;
+  }
+  .lll_zp image{
+    width: 100%;
+    height: 100%;
+  }
+  .lll_sz{
+    font-size: 18rpx;
+    float: left;
+    line-height: 35rpx;
+    margin-left: 10rpx;
+    color: rgb(165, 162, 162);
+  }
+.pl{
+    width: 90%;
+    min-height: 400rpx;
+    margin: 30rpx auto;
+}
+.title_pl{
+    font-weight: 700;
+    font-size: 40rpx;
+    height: 100rpx;
+    
+}
+.pl_bt{
+   height: 60rpx;
+   margin-top: 20rpx;
+   border-left:4px solid red ;
+   padding-left: 10rpx;
+   float: left;
+}
+.pl_box{
+    width: 100%;
+    min-height:200rpx;
+}
+.pl_xxl{
+    width: 100%;
+    height: 70rpx;
+}
+.pl_tx{
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 50%;
+    float: left;
+    background-color: rgb(230, 235, 235);
+}
+.pl_tx image{
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+
+}
+.pl_xx_us{
+    height: 70rpx;
+    padding-left: 20rpx;
+    float: left;
+}
+.pl_xx_user{
+    height: 50rpx;
+    line-height: 50rpx;
+    color: rgb(59, 59, 58);
+    font-size: 29rpx;
+}
+.pl_xx_time{
+    height: 20rpx;
+    line-height: 20rpx;
+    color: rgb(131, 131, 131);
+    font-size: 17rpx;
+}
+.dz{
+    width: 50rpx;
+    height: 50rpx;
+    float: right;
+    padding-top: 10rpx;
+    padding-right: 10rpx;
+}
+.dz image{
+    width: 100%;
+    height: 100%;
+}
+.plxx_xq{
+    width: 90%;
+    min-height: 120rpx;
+    padding-left: 70rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    font-size: 27rpx;
+    color: rgb(72, 75, 75);
+}
+.qpl{
+    float: right;
+   margin-right: 20rpx;
+    width: 100rpx;
+    height: 40rpx;
+    background-color: rgba(0, 0, 223, 0.555);
+    line-height: 40rpx;
+    text-align: center;
+    font-size: 20rpx;
+    font-weight: 300;
+    border-radius: 20rpx;
+    color: white;
+    margin-top:21rpx;
+}

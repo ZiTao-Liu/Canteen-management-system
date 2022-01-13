@@ -1,0 +1,127 @@
+/* pages/dingdan/dingdan.wxss */
+.mydd{
+    width:350rpx;
+    height: 300rpx;
+    margin: 100rpx auto;
+    margin-bottom: 10rpx; 
+}
+.mydd image{
+    width: 100%;
+    height: 100%;
+}
+.text_wydd{
+    text-align: center;
+}
+
+.wdl_ban{
+    width: 500rpx;
+    height: 550rpx;
+    margin: 100rpx auto;
+}
+.wdl{
+    width: 350rpx;
+    height: 350rpx;
+    margin: 0 auto;
+}
+.wdl image{
+    width: 100%;
+    height: 100%;
+}
+.text_main{
+    text-align: center;
+    line-height: 100rpx;
+    color: rgb(122, 121, 119);
+}
+
+.btn_sq{
+    margin-left: 35%;
+}
+.text_main1{
+    width: 90%;
+    margin: 30rpx auto;
+    height: 300rpx;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20rpx;
+}
+.main_gwc{
+    width: 100%;
+    height: 300rpx;
+}
+.title{
+    width: 100%;
+    height: 100rpx;
+    background-color: rgb(233, 233, 233);
+} 
+.sjmc_1{
+    color: black;
+    font-weight: 700;
+    padding-left: 30rpx;
+    line-height: 100rpx;
+    float: left;
+}
+.sp_btn{
+    float: right;
+    margin-top: 20rpx;
+    margin-left: 10rpx;
+}
+.zp_sp{
+    width: 200rpx;
+    height: 200rpx;
+    float: left;
+}
+.zp_sp image{
+    width: 100%;
+    height: 100%;
+}
+.zp_nrl{
+    width: 400rpx;
+    height: 200rpx;
+    float: left;
+}
+.title_zpnrl{
+    font-size: 24rpx;
+    line-height: 50rpx;
+    padding-left: 20rpx;
+}
+.title_zpnrl1{
+    font-size: 34rpx;
+    color: rgb(143, 1, 1);
+    font-weight: 700;
+    line-height: 80rpx;
+    padding-left: 20rpx;
+}
+.box_main_1{
+    width:100% ;
+    height: 180rpx;
+    background-color: rgb(220, 221, 219);
+}
+.ban_box{
+    width: 180rpx;
+    height: 180rpx;
+    padding-top:0rpx;
+    float: left;
+}
+.banner {
+    width: 100%;
+    height: 350rpx;
+  }
+  .zpq{
+      width: 120rpx;
+      height: 120rpx;
+      margin: 0 auto;
+      margin-top: 20rpx;
+  }
+  .banner image {
+    width: 100%;
+    height: 100%;
+  }
+  .text_qjj{
+      text-align: center;
+      font-size: 25rpx;
+      line-height: 40rpx;
+
+  }
+  .zpq image{
+      width: 100%;
+      height: 100%;
+  }

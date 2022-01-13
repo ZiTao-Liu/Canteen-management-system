@@ -1,0 +1,32 @@
+<!--pages/xgxx/xgxx.wxml-->
+<view class="topbanner"> 
+    <view class="toplogo">
+        <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="toptext">
+    <open-data type="userNickName" lang="zh_CN" class="user-name"></open-data>  
+    <view class="user-name2">爱国、敬业、求实、创新</view>
+    </view>
+</view>
+<view class="fqzd-ban">
+    <form catchsubmit="formSubmit">
+    <view class="row">
+        <view class="text1">姓名：</view>
+        <input class="weui-input" name="name" placeholder="姓名" />
+    </view>
+    <view class="row">
+        <view class="text1">电话：</view>
+        <input class="weui-input" name="tel" placeholder="电话" />
+    </view>
+    <view class="row">
+        <view class="text1">地址：</view>
+        <input class="weui-input" name="dz" placeholder="地址" />
+    </view>
+    <view class="row">
+        <view class="text1">学院：</view>
+        <input class="weui-input" name="xy" placeholder="学院" />
+    </view>
+    <button type="primary" style="margin-top:40rpx;margin-bottom:20rpx"  formType="submit">提交</button>
+</form>
+</view>
+

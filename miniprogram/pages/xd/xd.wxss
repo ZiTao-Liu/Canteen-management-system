@@ -1,0 +1,27 @@
+/* pages/xd/xd.wxss */
+.zpq{
+    width: 100%;
+    height: 700rpx;
+}
+.zpq image{
+    width: 100%;
+    height: 100%;
+}
+.cxz{
+    width: 100%;
+    height: 200rpx;
+    margin-top: -500rpx;
+}
+.title_01{
+    font-size: 80rpx;
+    font-weight: 700;
+    color: white;
+    margin-top: 40rpx;
+    text-align: center;
+}
+.wz{
+    font-size: 30rpx;
+    color: white;
+    margin-top: 10rpx;
+    text-align: center;
+}

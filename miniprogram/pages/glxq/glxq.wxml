@@ -1,0 +1,47 @@
+<!--pages/glxq/glxq.wxml-->
+<view class="zpq" id="{{item._id}}">
+    <image src="{{rmbs.phpto}}"></image>
+</view>
+<view class="dd">
+    <rich-text class="rich" nodes="{{rmbs.xq}}"></rich-text>
+</view>
+<view class="fbsj">
+    发布时间：{{rmbs.time}}
+</view>
+<view class="lll">
+    <view class="liulanl">
+        <view class="lll_zp">
+            <image src="../../images/font-ui/liulan.png"></image>
+        </view>
+        <view class="lll_sz">
+            {{rmbs.lll}}+
+        </view>
+    </view>
+</view>
+<view class="pl">
+    <view class="title_pl">
+     <view class="pl_bt">评论</view> 
+     <view class="qpl" id="{{rmbs._id}}" bindtap='showbs'>去评论</view>
+     </view>
+    <view class="pl_box" wx:for="{{rmb}}" wx:for-item="item" wx:key="_id"  >
+        <view class="pl_xxl" >
+            <view class="pl_tx">
+                <image src="../../images/font-ui/nstx.png"></image>
+            </view>
+            <view class="pl_xx_us">
+                <view class="pl_xx_user">
+                    {{item.username}}
+                </view>
+                <view class="pl_xx_time">
+                    {{item.data}}
+                </view>
+            </view>
+            <view class="dz">
+                <image src="../../images/font-ui/dzz.png"></image>
+            </view>
+        </view>
+        <view class="plxx_xq">
+            {{item.text}}
+        </view>
+    </view>
+</view>

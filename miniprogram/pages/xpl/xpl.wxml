@@ -1,0 +1,28 @@
+<!--pages/xpl/xpl.wxml-->
+<view class="banner">
+    <!----><image src="https://6363-ccntst-8gsp6zkw250f8e38-1305928500.tcb.qcloud.la/cloudbase-cms/upload/2021-11-25/5hbujycykft9vg9g82xcsw0f6z34v8o5_.jpg"></image>
+</view> 
+<view class="wdl_ban" wx:if="{{userid==''}}">
+    <view class="wdl">
+        <image src="../../images/font-ui/wdl.png"></image>
+    </view>
+    <view class="text_main">您还未授权登录，请授权登录！</view>
+    <button size="mini" type="primary" bindtap='showsq' class="btn_sq">去授权</button>
+</view>
+<view class="xpl" wx:if="{{userid!=''}}">
+    <form bindsubmit="btnSub">
+        <view class="top-s">
+            <view class="top-text">用户名称：</view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="username" placeholder="输入名称" />
+            </view>
+        </view>
+        <view class="top-s">
+            <view class="top-text">评论：</view>
+            <view class="weui-cell__bd">
+                <textarea bindblur="bindTextAreaBlur" name="text" class="weui-text" auto-height placeholder="自动变高" />
+            </view>
+        </view>
+        <button style="margin: 0 aout;margin-top:40rpx;margin-bottom:40rpx;" type="primary" formType="submit">发表评论</button>
+    </form>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/buzx/buzx.wxml-->
+<view class="banner">
+    <image src="https://6363-ccntst-8gsp6zkw250f8e38-1305928500.tcb.qcloud.la/cloudbase-cms/upload/2021-11-25/5hbujycykft9vg9g82xcsw0f6z34v8o5_.jpg"></image>
+</view> 
+<view class="textlist">
+  <view class="textmain" wx:for="{{msgList}}" wx:for-item="item" wx:key="_id"  bindtap='shownr' id="{{item.url}}">
+      <view>
+        <view class="teximg"><image src="../../images/font-ui/bzzx.png" ></image> </view>
+        <view class="text1">{{item.name}} </view>
+      </view>
+      <view class="text2">{{item.text}}</view>
+  </view>
+</view>

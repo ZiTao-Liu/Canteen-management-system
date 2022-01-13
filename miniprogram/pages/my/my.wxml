@@ -1,0 +1,67 @@
+<!--pages/my/my.wxml-->
+<view class="topbanner"  wx:if="{{openid!=''}}"> 
+    <view class="toplogo">
+        <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="toptext">
+    <open-data type="userNickName" lang="zh_CN" class="user-name"></open-data>  
+    <view class="user-name2">爱国、敬业、求实、创新</view>
+    </view>
+</view>
+<view class="topbanner" wx:if="{{openid==''}}"> 
+    <view class="topban1">您还未授权登录</view>
+    <view class="topban1">去授权登录</view>
+    <button bindtap="getopenid" type="default">登录</button>
+</view>
+<view class="banner-xx">
+    <view class="ban-t" bindtap='showgrzl' id="{{openid}}">
+        <view class="ban-row">
+            <view class="ban-im">
+                <image src="../../images/font-ui/gerenshezhi.png"></image>
+            </view>
+            <view class="ban-tx">
+                个人资料
+            </view>
+        </view>
+    </view>
+    <view class="ban-t"  bindtap='showgbzzx'>
+        <view class="ban-row">
+            <view class="ban-im">
+                <image src="../../images/font-ui/zhinan.png"></image>
+            </view>
+            <view class="ban-tx">
+                帮助中心
+            </view>
+        </view>
+    </view>
+    <view class="ban-t" bindtap='showgyqfk'>
+        <view class="ban-row">
+            <view class="ban-im">
+                <image src="../../images/font-ui/tuandui.png"></image>
+            </view>
+            <view class="ban-tx">
+                意见反馈
+            </view>
+        </view>
+    </view>
+    <view class="ban-t" bindtap='showgywm'>
+        <view class="ban-row">
+            <view class="ban-im">
+                <image src="../../images/font-ui/qiyeguanli.png"></image>
+            </view>
+            <view class="ban-tx">
+                关于我们 & 版本管理
+            </view>
+        </view>
+    </view>
+    <view class="ban-t" bindtap='showgsj' id="{{openid}}">
+        <view class="ban-row">
+            <view class="ban-im">
+                <image src="../../images/font-ui/sjjj.png"></image>
+            </view>
+            <view class="ban-tx">
+                商家管理
+            </view>
+        </view>
+    </view>
+</view>

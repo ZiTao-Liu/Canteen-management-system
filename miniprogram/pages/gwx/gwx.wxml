@@ -1,0 +1,39 @@
+<!--pages/dingdan/dingdan.wxml-->
+<view class="qsy" wx:if="{{openid!=''&&rmb==''}}">
+    <view class="mydd">
+        <image src="../../images/font-ui/zwjl.png"></image>
+    </view>
+    <view class="text_wydd">暂未有订单，快去下单吧！</view>
+</view>
+<view class="qsy" wx:if="{{openid==''}}">
+    <view class="wdl">
+        <image src="../../images/font-ui/wdl.png"></image>
+    </view>
+    <view class="text_main">您还未授权登录，请授权登录！</view>
+    <button bindtap="getopenid" size="default" class="btn_sq" type="primary">登录</button>
+</view>
+<view wx:if="{{openid!=''&&rmb!=''}}" class="text_main1" wx:for="{{rmb}}" wx:for-item="item" wx:key="_id" bindtap='showbs' id="{{item._id}}" wx:if="{{openid==item.userid&&item.xd==0}}">
+    <view class="main_gwc">
+        <view class="title">
+            <view class="sjmc_1">  
+                {{item.bookList[0].name}}
+            </view>
+            <button size="mini" type="primary" class="sp_btn" id="{{item._id}}"  bindtap="binxd">下单</button>
+            <button size="mini" type="warn" class="sp_btn" id="{{item._id}}" bindtap="binqc">清除商品</button>
+        </view>
+        <view class="zp_sp">
+            <image src='{{item.bookList[0].zp}}'></image>
+        </view>
+        <view class="zp_nrl">
+            <view class="title_zpnrl">
+                配料：{{item.bookList[0].pl}}
+            </view>
+            <view class="title_zpnrl1">
+                价格：{{item.bookList[0].jg}}
+            </view>
+            <view class="title_zpnrl">
+                加入时间：{{item.time}}
+            </view>
+        </view>
+    </view>
+</view>  

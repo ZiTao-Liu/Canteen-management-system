@@ -1,0 +1,24 @@
+/* pages/fbpl/fbpl.wxss */
+
+.wdl_ban{
+    width: 500rpx;
+    height: 550rpx;
+    margin: 100rpx auto;
+}
+.wdl{
+    width: 350rpx;
+    height: 350rpx;
+    margin: 0 auto;
+}
+.wdl image{
+    width: 100%;
+    height: 100%;
+}
+.text_main{
+    text-align: center;
+    line-height: 100rpx;
+    color: rgb(122, 121, 119);
+}
+.btn_sq{
+    margin-left: 35%;
+}

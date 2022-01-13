@@ -1,0 +1,37 @@
+<!--pages/grxx/grxx.wxml-->
+<view class="topbanner"> 
+    <view class="toplogo">
+        <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="toptext">
+    <open-data type="userNickName" lang="zh_CN" class="user-name"></open-data>  
+    <view class="user-name2">爱国、敬业、求实、创新</view>
+    </view>
+</view>
+<view class="fqzd-ban">
+    <view class="row">
+        <view class="text1">姓名：</view>
+        <view class="text2">{{rmbs[0].name}}</view>
+    </view>
+    <view class="row">
+        <view class="text1">电话：</view>
+        <view class="text2">{{rmbs[0].tel}}</view>
+    </view>
+    <view class="row">
+        <view class="text1">学院：</view>
+        <view class="text2">{{rmbs[0].xy}}</view>
+    </view>
+    <view class="row">
+        <view class="text1">地址：</view>
+        <view class="text2">{{rmbs[0].dz}}</view>
+    </view>
+    <view class="row">
+        <view class="text1">诚信度：</view>
+        <view class="text2">{{rmbs[0].cxd}}</view>
+    </view> 
+    <view class="row">
+        <view class="text1">管理员：</view>
+        <view class="text2">{{rmbs[0].gly}}</view>
+    </view>
+    <button type="default" style="margin-top:20rpx;margin-bottom:60rpx" bindtap='showgrxg'>修改</button>
+</view>

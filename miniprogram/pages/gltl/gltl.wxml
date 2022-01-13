@@ -1,0 +1,39 @@
+<!--pages/gltl/gltl.wxml-->
+<view class="banner">
+    <!----><image src="https://6363-ccntst-8gsp6zkw250f8e38-1305928500.tcb.qcloud.la/cloudbase-cms/upload/2021-11-25/5hbujycykft9vg9g82xcsw0f6z34v8o5_.jpg"></image>
+</view> 
+<view class="miin_baer">
+    <view class="title_pl">
+     <view class="pl_bt">攻略评论</view> 
+     <view class="qpl" id="{{rmbs._id}}" bindtap='showtl'>发表</view>
+     </view>
+    <view class="mian_box"  wx:for="{{rmbs}}" wx:for-item="item" wx:key="_id"  bindtap='showbs' id="{{item._id}}">
+        <view class="min_box_img">
+            <image src="{{item.phpto}}"></image>
+        </view>
+        <view class="mian_text">
+            <view class="miam_text_title">
+                {{item.title}}
+            </view>
+            <view class="mian_user">
+                <view class="user_logo">
+                    <image src="../../images/font-ui/nstx.png"></image>
+                </view>
+                <view class="user_name">
+                    {{item.user}}
+                </view>
+                <view class="taolun">
+                    <image src="../../images/font-ui/pinglun-08.png"></image>
+                </view>
+                <view class="liulanl">
+                    <view class="lll_zp"> 
+                        <image src="../../images/font-ui/liulan.png"></image>
+                    </view>
+                    <view class="lll_sz">
+                        {{item.lll}}+
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

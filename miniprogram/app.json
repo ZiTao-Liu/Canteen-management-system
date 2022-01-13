@@ -1,0 +1,73 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/my/my",
+        "pages/dp/dp",
+        "pages/gltl/gltl",
+        "pages/grxx/grxx",
+        "pages/xgxx/xgxx",
+        "pages/gywm/gywm",
+        "pages/buzx/buzx",
+        "pages/glxq/glxq",
+        "pages/xpl/xpl",
+        "pages/fbgl/fbgl",
+        "pages/xdym/xdym",
+        "pages/jqqt/jqqd",
+        "pages/dingdan/dingdan",
+        "pages/xd/xd",
+        "pages/gwx/gwx",
+        "pages/ddgl/ddgl",
+        "pages/qccg/qccg",
+        "pages/sjgl/sjgl",
+        "pages/fbpl/fbpl"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#B22222",
+        "navigationBarTitleText": "长春工业大学食堂预约",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#11cd6e",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "images/font-ui/shouye.png",
+                "selectedIconPath": "images/font-ui/shouye.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/dp/dp",
+                "iconPath": "images/font-ui/dianpu.png",
+                "selectedIconPath": "images/font-ui/dianpu.png",
+                "text": "店铺"
+            },
+            {
+                "pagePath": "pages/dingdan/dingdan",
+                "iconPath": "images/font-ui/dingdan.png",
+                "selectedIconPath": "images/font-ui/dingdan.png",
+                "text": "订单"
+            },
+            {
+                "pagePath": "pages/gltl/gltl",
+                "iconPath": "images/font-ui/gonglve.png",
+                "selectedIconPath": "images/font-ui/gonglve.png",
+                "text": "攻略"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "iconPath": "images/font-ui/wode.png",
+                "selectedIconPath": "images/font-ui/wode.png",
+                "text": "我"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "useExtendedLib": {
+        "weui": true
+      }
+}

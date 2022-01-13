@@ -1,0 +1,25 @@
+/* pages/yjfk/yjfk.wxss */
+.banner{
+  width: 100%;
+  height: 350rpx;
+}
+.banner image{
+  width: 100%;
+  height: 100%;
+}
+.yjfk{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}
+.yjfk-title{
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.text-01{
+  font-size: 27rpx;
+  color: rgb(140, 146, 146);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60rpx;
+}

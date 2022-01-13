@@ -1,0 +1,67 @@
+/* pages/xpl/xpl.wxss */
+.wdl_ban{
+    width: 500rpx;
+    height: 550rpx;
+    margin: 100rpx auto;
+}
+.wdl{
+    width: 350rpx;
+    height: 350rpx;
+    margin: 0 auto;
+}
+.wdl image{
+    width: 100%;
+    height: 100%;
+}
+.text_main{
+    text-align: center;
+    line-height: 100rpx;
+    color: rgb(122, 121, 119);
+}
+.btn_sq{
+    margin-left: 35%;
+}
+
+.top-s {
+    width: 100%;
+  }
+  
+  .top-text {
+    font-size: 35rpx;
+    font-weight: 700;
+    margin-left: 20rpx;
+    line-height: 80rpx;
+  }
+  .weui-input{
+    width: 97%;
+    border:1px solid rgb(199, 196, 196);
+    height: 40px;
+    line-height: 40rpx;
+    padding-left: 20rpx;
+  }
+  .weui-text{
+    width: 97%;
+    border:1px solid rgb(199, 196, 196);
+    padding-left: 20rpx;
+    min-height: 40px;
+    line-height: 40rpx;
+  }
+  .zwkf{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .zwkf image{
+    width: 100%;
+  }
+  .text{
+    text-align: center;
+  }
+  .banner {
+    width: 100%;
+    height: 350rpx;
+  }
+  
+  .banner image {
+    width: 100%;
+    height: 100%;
+  }
